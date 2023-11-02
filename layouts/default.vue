@@ -4,5 +4,5 @@
     <NuxtLink to="gaming">Gaming</NuxtLink>
   </nav>
 
-  <slot/>
+  <slot />
 </template>
