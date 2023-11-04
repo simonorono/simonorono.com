@@ -9,9 +9,8 @@ const NAME_CLASSES = 'p-name text-xl font-medium'
   <div
     :class="
       [
-        'h-card flex flex-col items-center justify-center space-y-8 border-b',
-        'border-slate-300 bg-slate-100 p-10 shadow-lg lg:fixed lg:inset-y-0',
-        'lg:w-96 lg:justify-start lg:overflow-auto lg:border-b-0 lg:border-r',
+        'flex min-h-full flex-col items-center justify-center space-y-8 p-10',
+        'border-b border-slate-300 bg-slate-100 shadow-lg lg:border-b-0 lg:border-r',
       ].join(' ')
     "
   >
@@ -26,10 +25,10 @@ const NAME_CLASSES = 'p-name text-xl font-medium'
 
     <ProfileLinks classes="lg:hidden" />
 
-    <article class="p-note prose prose-slate hidden grow lg:block">
+    <article class="p-note prose prose-slate hidden lg:block">
       <Bio />
     </article>
 
-    <ProfileLinks classes="hidden lg:block" />
+    <ProfileLinks classes="hidden grow lg:block" />
   </div>
 </template>

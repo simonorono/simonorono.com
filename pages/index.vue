@@ -8,8 +8,7 @@ import otherLinks from '../data/other-links.json'
       <div class="lg:hidden">
         <Bio />
       </div>
-
-      <h2 class="text-3xl font-medium">Projects</h2>
+      <h2 class="mt-0 text-3xl font-medium">Projects</h2>
 
       <p>
         Besides writing code for a living, I also like writing code for
