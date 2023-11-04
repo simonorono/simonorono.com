@@ -6,8 +6,7 @@ useHead({
 const GGAPP = 'https://ggapp.io/simonorono'
 const SUPEREFFECTIVE =
   'https://supereffective.gg/apps/livingdex/fOHUWMujCcNduz4leWjM'
-const PHOTOMODE =
-  'href="https://photomode.io/profile/t15k8gpUj5PKRQ1AiK4Aeh9hfOB3'
+const PHOTOMODE = 'https://photomode.io/profile/t15k8gpUj5PKRQ1AiK4Aeh9hfOB3'
 </script>
 
 <template>
