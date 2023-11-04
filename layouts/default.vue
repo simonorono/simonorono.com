@@ -11,5 +11,11 @@ useHead({
     <Header />
   </header>
 
-  <slot />
+  <main class="lg:ml-96 lg:min-h-screen">
+    <div class="px-4 py-8 sm:px-8">
+      <slot />
+    </div>
+
+    <div class="h-10" />
+  </main>
 </template>

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "bitc",
+    "vcs": "https://github.com/simonorono/bitc",
+    "url": "https://bitc.mcbodev.com",
+    "description": "Bit containers library targeting the JVM. Written in Kotlin."
+  },
+  {
+    "name": "flight-recorder",
+    "vcs": "https://github.com/simonorono/flight-recorder",
+    "description": "Command line utilities to measure household metrics."
+  },
+  {
+    "name": "Mcbo Notes",
+    "vcs": "https://github.com/simonorono/mcbo-notes",
+    "description": "Note taking application built with the purpose to test Tauri capabilities for creating desktop applications."
+  },
+  {
+    "name": "Pixelate",
+    "vcs": "https://github.com/simonorono/pixelate",
+    "url": "https://pixelate.mcbodev.com",
+    "description": "Web application for pixelating images. Transformation is done in the browser. No server side code."
+  },
+  {
+    "name": "Pokémon Battle History",
+    "vcs": "https://github.com/simonorono/pkm-battles",
+    "url": "https://pkm-battles.mcbodev.com/",
+    "description": "Web app containing replays of battles from Pokémon Showdown!"
+  },
+  {
+    "name": "RDex",
+    "vcs": "https://github.com/simonorono/rdex",
+    "url": "https://rdex.mcbodev.com",
+    "description": "Pokédex web application with support for all main game regions. Not yet fully complete."
+  }
+]
