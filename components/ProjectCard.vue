@@ -31,7 +31,7 @@ const { name, description, url, vcs } = project
           aria-hidden="true"
           alt="link logo"
         />
-        <span class="sr-only">{name}</span>
+        <span class="sr-only">{{ name }}</span>
         <span> Website</span>
         <span class="sr-only">&nbsp;(opens in new window)</span>
       </a>
