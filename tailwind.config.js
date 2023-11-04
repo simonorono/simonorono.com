@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -15,5 +17,10 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    plugin(function ({ addVariant }) {
+      addVariant('fine-pointer', '@media (pointer: fine)')
+    }),
+  ],
 }
