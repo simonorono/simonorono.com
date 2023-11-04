@@ -12,7 +12,7 @@ const { name, description, url, vcs } = project
 
 <template>
   <div
-    :class="`fine-pointer:hover:shadow-project flex flex-col space-y-4 p-4 transition-all duration-300 ${classes}`"
+    :class="`flex flex-col space-y-4 p-4 transition-all duration-300 fine-pointer:hover:shadow-project ${classes}`"
   >
     <h3 class="text-xl font-medium">{{ name }}</h3>
 
