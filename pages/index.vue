@@ -1,5 +1,14 @@
 <script setup lang="ts">
 import otherLinks from '../data/other-links.json'
+
+useHead({
+  meta: [
+    {
+      name: 'description',
+      content: 'Computer Scientist & Software Developer.',
+    },
+  ],
+})
 </script>
 
 <template>

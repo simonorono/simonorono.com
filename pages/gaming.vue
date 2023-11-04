@@ -1,6 +1,7 @@
 <script setup lang="ts">
 useHead({
   title: title('Gaming Profiles'),
+  meta: [{ name: 'description', content: "Simón Oroño's gaming profiles." }],
 })
 
 const GGAPP = 'https://ggapp.io/simonorono'
