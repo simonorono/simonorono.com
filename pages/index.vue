@@ -27,9 +27,9 @@ import otherLinks from '../data/other-links.json'
 
       <ul class="ml-4 mt-4 list-disc">
         <li v-for="{ href, label } in otherLinks" :key="href">
-          <a class="link" :href="href" target="_blank">
+          <NuxtLink class="link" :href="href" target="_blank">
             {{ label }}
-          </a>
+          </NuxtLink>
         </li>
       </ul>
     </div>
