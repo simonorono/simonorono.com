@@ -11,7 +11,8 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.15"
+    "@fontsource-variable/inter": "^5.0.15",
+    "remixicon": "^3.5.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
