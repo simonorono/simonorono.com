@@ -1,7 +1,9 @@
 <script setup lang="ts">
 const route = useRoute()
 useHead({
-  title: title(),
+  htmlAttrs: {
+    lang: 'en',
+  },
   link: [
     { rel: 'canonical', href: canonical(route.path) },
     {
@@ -38,6 +40,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { name: 'theme-color', content: '#ffffff' },
   ],
+  title: title(),
 })
 </script>
 
