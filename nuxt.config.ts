@@ -12,4 +12,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  runtimeConfig: {
+    public: {
+      gravatarHash: process.env.NUXT_PUBLIC_GRAVATAR_HASH ?? '',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? '',
+    },
+  },
 })

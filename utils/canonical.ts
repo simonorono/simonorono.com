@@ -1,5 +1,7 @@
 export default function (path: string = '') {
-  let canonical = 'https://simonorono.com'
+  const config = useRuntimeConfig()
+
+  let canonical = config.public.siteUrl
 
   if (path != '/') {
     canonical = `${canonical}${path}`
