@@ -18,13 +18,13 @@
     "@nuxt/devtools": "latest",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
-    "nuxt": "^3.8.0",
+    "nuxt": "^3.8.1",
     "nuxt-simple-sitemap": "^3.4.1",
     "postcss": "^8.4.31",
     "prettier": "3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.6",
+    "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.5",
-    "vue": "^3.3.7",
+    "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   }
 }
