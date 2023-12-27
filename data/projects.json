@@ -6,9 +6,9 @@
     "description": "Bit containers library targeting the JVM. Written in Kotlin."
   },
   {
-    "name": "flight-recorder",
-    "vcs": "https://github.com/simonorono/flight-recorder",
-    "description": "Command line utilities to measure household metrics."
+    "name": "House Monitor",
+    "vcs": "https://github.com/simonorono/house-monitor",
+    "description": "Utility to post uptime of systems to a Telegram channel."
   },
   {
     "name": "Mcbo Notes",
