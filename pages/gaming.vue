@@ -24,8 +24,15 @@ const PHOTOMODE = 'https://photomode.io/profile/t15k8gpUj5PKRQ1AiK4Aeh9hfOB3'
       gaming related friend codes:
     </p>
 
+    <p>
+      I like playing random battles on Pokémon Showdown. A web app containing
+      replays of those battles can be found
+      <a href="https://pkm-battles.mcbodev.com">here</a>.
+    </p>
+
     <FriendCode title="Discord" code="simonorono" />
 
     <FriendCode title="Nintendo Switch Friend Code" code="SW-6250-6376-2138" />
   </div>
 </template>
+
