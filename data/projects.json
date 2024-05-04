@@ -21,6 +21,12 @@
     "description": "Self-hosted aggregator and reader for RSS feeds."
   },
   {
+    "name": "McboDex",
+    "vcs": "https://github.com/simonorono/mcbodex",
+    "url": "https://mcbodex.com",
+    "description": "Pokédex web application with support for all main game regions."
+  },
+  {
     "name": "Pixelate",
     "vcs": "https://github.com/simonorono/pixelate",
     "url": "https://pixelate.mcbodev.com",
@@ -31,11 +37,5 @@
     "vcs": "https://github.com/simonorono/pkm-battles",
     "url": "https://pkm-battles.mcbodev.com/",
     "description": "Web app containing replays of battles from Pokémon Showdown!"
-  },
-  {
-    "name": "McboDex",
-    "vcs": "https://github.com/simonorono/mcbodex",
-    "url": "https://mcbodex.com",
-    "description": "Pokédex web application with support for all main game regions."
   }
 ]
