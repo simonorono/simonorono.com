@@ -17,18 +17,18 @@ const MOBILE_SQUARE_SIDE = 200
         :height="MOBILE_SQUARE_SIDE"
         :width="MOBILE_SQUARE_SIDE"
         media="(max-width: 1023px)"
-        :srcset="`https://www.gravatar.com/avatar/${gravatarHash}.jpg?s=${MOBILE_SQUARE_SIDE}`"
+        :srcset="`https://www.gravatar.com/avatar/${gravatarHash}.webp?s=${MOBILE_SQUARE_SIDE}`"
       />
       <source
         :height="DESKTOP_SQUARE_SIDE"
         :width="DESKTOP_SQUARE_SIDE"
         media="(min-width: 1024px)"
-        :srcset="`https://www.gravatar.com/avatar/${gravatarHash}.jpg?s=${DESKTOP_SQUARE_SIDE}`"
+        :srcset="`https://www.gravatar.com/avatar/${gravatarHash}.webp?s=${DESKTOP_SQUARE_SIDE}`"
       />
       <img
         :height="DESKTOP_SQUARE_SIDE"
         :width="DESKTOP_SQUARE_SIDE"
-        :src="`https://www.gravatar.com/avatar/${gravatarHash}.jpg?s=${DESKTOP_SQUARE_SIDE}`"
+        :src="`https://www.gravatar.com/avatar/${gravatarHash}.webp?s=${DESKTOP_SQUARE_SIDE}`"
         alt="cartoon depiction of Simón Oroño"
         class="u-photo"
       />
