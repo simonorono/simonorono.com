@@ -33,9 +33,9 @@
     "description": "Web app containing replays of battles from Pokémon Showdown!"
   },
   {
-    "name": "RDex",
-    "vcs": "https://github.com/simonorono/rdex",
-    "url": "https://rdex.mcbodev.com",
-    "description": "Pokédex web application with support for all main game regions. Not yet fully complete."
+    "name": "McboDex",
+    "vcs": "https://github.com/simonorono/mcbodex",
+    "url": "https://mcbodex.com",
+    "description": "Pokédex web application with support for all main game regions."
   }
 ]
