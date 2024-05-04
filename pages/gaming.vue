@@ -27,7 +27,7 @@ const PHOTOMODE = 'https://photomode.io/profile/t15k8gpUj5PKRQ1AiK4Aeh9hfOB3'
     <p>
       I like playing random battles on Pokémon Showdown. A web app containing
       replays of those battles can be found
-      <a href="https://pkm-battles.mcbodev.com">here</a>.
+      <GamingLink href="https://pkm-battles.mcbodev.com">here</GamingLink>.
     </p>
 
     <FriendCode title="Discord" code="simonorono" />
@@ -35,4 +35,3 @@ const PHOTOMODE = 'https://photomode.io/profile/t15k8gpUj5PKRQ1AiK4Aeh9hfOB3'
     <FriendCode title="Nintendo Switch Friend Code" code="SW-6250-6376-2138" />
   </div>
 </template>
-
