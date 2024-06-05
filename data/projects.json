@@ -16,11 +16,6 @@
     "description": "Note taking application built with the purpose to test Tauri capabilities for creating desktop applications."
   },
   {
-    "name": "Mcbo Reader",
-    "vcs": "https://github.com/simonorono/mcbo-reader",
-    "description": "Self-hosted aggregator and reader for RSS feeds."
-  },
-  {
     "name": "McboDex",
     "vcs": "https://github.com/simonorono/mcbodex",
     "url": "https://mcbodex.com",
