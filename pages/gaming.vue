@@ -33,5 +33,7 @@ const PHOTOMODE = 'https://photomode.io/profile/t15k8gpUj5PKRQ1AiK4Aeh9hfOB3'
     <FriendCode title="Discord" code="simonorono" />
 
     <FriendCode title="Nintendo Switch Friend Code" code="SW-6250-6376-2138" />
+
+    <FriendCode title="Xbox Gamertag" code="simonorono#5872" />
   </div>
 </template>
