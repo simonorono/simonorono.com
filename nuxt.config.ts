@@ -4,8 +4,10 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
     '~/node_modules/@fontsource-variable/inter/index.css',
   ],
+
   devtools: { enabled: true },
   modules: ['nuxt-simple-sitemap'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -19,4 +21,6 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? '',
     },
   },
+
+  compatibilityDate: '2024-07-09',
 })
