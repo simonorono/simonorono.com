@@ -15,9 +15,6 @@ export default {
       boxShadow: {
         project: '0 0px 10px 2px rgb(0 0 0 / 0.1)',
       },
-      fontFamily: {
-        sans: ['Inter Variable', 'sans-serif'],
-      },
     },
   },
   plugins: [
