@@ -8,7 +8,7 @@
   {
     "name": "House Monitor",
     "vcs": "https://github.com/simonorono/house-monitor",
-    "description": "Utility to post uptime of systems to a Telegram channel."
+    "description": "Utility to post uptime of any Linux server to a Discord channel using webhooks."
   },
   {
     "name": "Mcbo Notes",
