@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BlueskyLogo from 'remixicon/icons/Logos/bluesky-fill.svg'
 import GithubLogo from 'remixicon/icons/Logos/github-fill.svg'
 import LinkedInLogo from 'remixicon/icons/Logos/linkedin-box-fill.svg'
 import StackOverflowLogo from 'remixicon/icons/Logos/stack-overflow-fill.svg'
@@ -8,6 +9,12 @@ const { classes } = defineProps<{ classes: string }>()
 
 <template>
   <div :class="['space-x-6', classes].filter(Boolean).join(' ')">
+    <ProfileLinkLogo
+      href="https://bsky.app/profile/simonorono.com"
+      name="bluesky"
+      :src="BlueskyLogo"
+    />
+
     <ProfileLinkLogo
       href="https://www.linkedin.com/in/simonorono"
       name="linkedin"
