@@ -28,20 +28,6 @@ useHead({
 
     <Projects />
 
-    <hr />
-
-    <div>
-      <h2 class="text-2xl font-medium">Other links</h2>
-
-      <ul class="ml-4 mt-4 list-disc">
-        <li v-for="{ href, label } in otherLinks" :key="href">
-          <NuxtLink class="link" :href="href" target="_blank">
-            {{ label }}
-          </NuxtLink>
-        </li>
-      </ul>
-    </div>
-
     <div class="h-1" />
   </div>
 </template>
