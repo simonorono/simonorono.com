@@ -2,7 +2,6 @@
 const route = useRoute()
 
 const NAME = 'Simón Oroño'
-const NAME_CLASSES = 'p-name text-xl font-medium'
 </script>
 
 <template>
@@ -18,9 +17,12 @@ const NAME_CLASSES = 'p-name text-xl font-medium'
       <ProfilePicture />
     </NuxtLink>
 
-    <NuxtLink class="text-center lg:w-full lg:text-left" to="/">
-      <h1 v-if="route.path === '/'" :class="NAME_CLASSES">{{ NAME }}</h1>
-      <h2 v-else :class="NAME_CLASSES">{{ NAME }}</h2>
+    <NuxtLink
+      class="p-name text-center text-xl font-medium lg:w-full lg:text-left"
+      to="/"
+    >
+      <h1 v-if="route.path === '/'">{{ NAME }}</h1>
+      <h2 v-else>{{ NAME }}</h2>
     </NuxtLink>
 
     <ProfileLinks classes="lg:hidden" />
