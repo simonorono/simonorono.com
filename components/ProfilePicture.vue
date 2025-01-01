@@ -10,28 +10,10 @@ const MOBILE_SQUARE_SIDE = 200
 <template>
   <div
     v-if="gravatarHash"
-    class="h-[200px] w-[200px] overflow-hidden rounded-2xl border border-slate-300 bg-slate-200 lg:h-[250px] lg:w-[250px]"
+    class="overflow-hidden rounded-2xl border border-slate-300 bg-slate-200"
   >
-    <picture>
-      <source
-        :height="MOBILE_SQUARE_SIDE"
-        :width="MOBILE_SQUARE_SIDE"
-        media="(max-width: 1023px)"
-        :srcset="`https://www.gravatar.com/avatar/${gravatarHash}.webp?s=${MOBILE_SQUARE_SIDE}`"
-      />
-      <source
-        :height="DESKTOP_SQUARE_SIDE"
-        :width="DESKTOP_SQUARE_SIDE"
-        media="(min-width: 1024px)"
-        :srcset="`https://www.gravatar.com/avatar/${gravatarHash}.webp?s=${DESKTOP_SQUARE_SIDE}`"
-      />
-      <img
-        :height="DESKTOP_SQUARE_SIDE"
-        :width="DESKTOP_SQUARE_SIDE"
-        :src="`https://www.gravatar.com/avatar/${gravatarHash}.webp?s=${DESKTOP_SQUARE_SIDE}`"
-        alt="cartoon depiction of Simón Oroño"
-        class="u-photo"
-      />
-    </picture>
+    <ProfileImage classes="lg:hidden" :size="MOBILE_SQUARE_SIDE" />
+
+    <ProfileImage classes="hidden lg:block" :size="DESKTOP_SQUARE_SIDE" />
   </div>
 </template>
