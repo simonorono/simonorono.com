@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "format": "prettier . --write"
+    "format": "prettier **/*.{css,json,ts,vue} --write"
   },
   "dependencies": {
     "remixicon": "^4.6.0"
